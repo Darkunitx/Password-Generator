@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-function generatePassword() {
+function userInfo() {
   var passwordLength = parseInt(window.prompt("How many characters do you want in your password?"));
 
   if (isNaN(passwordLength)) {
@@ -22,7 +22,24 @@ function generatePassword() {
   var isLowerCase = confirm("Would you like Lower case letters in your password?");
   var IsSpecialChar= confirm("Would you like Special Characters in your password?");
 
+  var numberList = ["0","1","2","3","4","5","6","7","8","9"]
+  var upperCaseList = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",]
+  var loserCaseList = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",]
+  var specialCharList = ["~","`","!","@","#","$","%","^","&","*","(",")","<",">","/"]
+
+  
+  if (isNumbers === false && isUpperCase === false && isLowerCase === false && IsSpecialChar === false) {
+    window.alert("You must choose at least one character type!")
+    return null;
+  }
+
 }
+
+  
+function generatePassword() {
+  var passwordInfo = userInfo();
+}
+
 
 // Write password to the #password input
 function writePassword() {
