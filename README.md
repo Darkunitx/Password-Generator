@@ -15,3 +15,5 @@
 - <a href="">My Portfolio Live Website</a>
 - <a href="">My Portfolio Github Repo</a>
 
+![Website screenshot](./Assets/03-javascript-homework-demo.png "Website screenshot")
+
