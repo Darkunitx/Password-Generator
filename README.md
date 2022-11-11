@@ -9,3 +9,9 @@
 - [Credits](#credits)
 - [License](#license)
 - [Badges](#badges)
+
+## Usage
+- <p> The password generator will facilitate the password making process by taking away the lengthy process of actually coming up with a password. </p>
+- <a href="">My Portfolio Live Website</a>
+- <a href="">My Portfolio Github Repo</a>
+
