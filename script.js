@@ -67,10 +67,10 @@ var generateBtn = document.querySelector("#generate");
     for (var i = 0; i < passwordLength; i++) {
       var randomList = getRandomItem(optionsCart)
       var randomChar = getRandomItem(randomList)
-      generatePassword += randomChar
+      generatedPassword += randomChar
     }
 
-    console.log(generatedPassword);
+    return generatedPassword
   }
 
 // Write password to the #password input
