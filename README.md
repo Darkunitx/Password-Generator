@@ -1,4 +1,4 @@
-# My Portfolio
+# My Password Generator
 
 ## Description 
 - I have created this application that will allow users to generate random passwords based on criteria that you have selected. The password generator will facilitate the password making process by taking away the lengthy process of actually coming up with a password. I have created this tool to help people across the globe strengthen their privacy credentials which will give them peace of mind for very little effort. Thanks to this application i have further improved my knowledge in Javascript specifically in regards to functions and variables.  
@@ -12,8 +12,8 @@
 
 ## Usage
 - <p> The password generator will facilitate the password making process by taking away the lengthy process of actually coming up with a password. </p>
-- <a href="">My Portfolio Live Website</a>
-- <a href="">My Portfolio Github Repo</a>
+- <a href="https://darkunitx.github.io/Password-Generator/">Password Generator Live Website</a>
+- <a href="https://github.com/Darkunitx/Password-Generator">Password Generator Github Repo</a>
 
 ![Website screenshot](./Assets/03-javascript-homework-demo.png "Website screenshot")
 
@@ -28,7 +28,7 @@
 
 - MIT License
 
-- Copyright (c) [2022] [Miguel Montenegro Portfolio]
+- Copyright (c) [2022] [Miguel Montenegro Password Generator]
 
 - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
