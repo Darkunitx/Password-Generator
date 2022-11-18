@@ -18,9 +18,9 @@ function writePassword() {
 
 function generatePassword () {
 
-var userChoice = window.alert("Hello and welcome to Random Password Generator, This program will generate a random password based on the criteria that you have selected. You will be prompted to choose at least one of the following: Numbers, Upper Case letters, Lower Case letters or Special characters. Do you wish to continue?");
+  var userChoice = window.alert("Hello and welcome to Random Password Generator, This program will generate a random password based on the criteria that you have selected. You will be prompted to choose at least one of the following: Numbers, Upper Case letters, Lower Case letters or Special characters. Do you wish to continue?");
 
-var passLength = parseInt(window.prompt("How long do you want your password to be?"));
+  var passLength = parseInt(window.prompt("How long do you want your password to be?"));
 
   if (isNaN(passLength)) {
     window.alert("You need to enter a number")
@@ -32,7 +32,12 @@ var passLength = parseInt(window.prompt("How long do you want your password to b
     return;
   }
 
-  
+  var includingNumbers = window.prompt("Do you want Numbers in your password?");
+  var includingUpper = window.prompt("Do you want Uppercase Letters in your password?");
+  var includingLower = window.prompt("Do you want Lowercase Letters in your password?");
+  var includingSpecial = window.prompt("Do you want Special Characters in your password?");
+
+
 }
 generatePassword();
 
