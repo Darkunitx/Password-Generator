@@ -6,7 +6,6 @@ var upperCaseLetters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N",
 var lowerCaseLetters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",];
 var specialCharacters = ["~","`","!","@","#","$","%","^","&","*","(",")","<",">","/"];
 
-
 function writePassword() {
 
   var password = generatePassword();
@@ -16,7 +15,7 @@ function writePassword() {
 
 function generatePassword () {
 
-  var userChoice = window.alert("Hello and welcome to Random Password Generator, This program will generate a random password based on the criteria that you have selected. You will be prompted to choose at least one of the following: Numbers, Upper Case letters, Lower Case letters or Special characters. Do you wish to continue?");
+  window.alert("Hello and welcome to Random Password Generator, This program will generate a random password based on the criteria that you have selected. You will be prompted to choose at least one of the following: Numbers, Upper Case letters, Lower Case letters or Special characters. Do you wish to continue?");
 
   var passwordLength = parseInt(window.prompt("How long do you want your password to be?"));
 
@@ -60,4 +59,15 @@ function generatePassword () {
    window.alert("You must choose at least one")
    return null; 
    }
+
+   var password = [];
+
+   for (var i = 0; i < passwordLength; i++) {
+    var randomItem = [Math.floor(Math.random()*combinedArray.length)];
+    password.push(combinedArray[randomItem]);
+
+   }
+
+   return password;
+
 }
