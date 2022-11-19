@@ -23,6 +23,18 @@
 - Miguel Montenegro  https://github.com/Darkunitx
 - Nicholas Mamberger https://github.com/NickHM05
 - Saiadhuddin Asim   https://github.com/Sal8298
+- TA Chris Stallcup
+
+- Websites/References utilized to complete this project :
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR
+- https://www.w3docs.com/snippets/javascript/how-to-copy-array-items-into-another-array.html
+- https://getbootstrap.com/docs/3.4/css/?#buttons
+- https://css-tricks.com/snippets/javascript/select-random-item-array/
+- https://www.w3schools.com/jsref/jsref_if.asp#:~:text=The%20if%2Felse%20statement%20executes,actions%20based%20on%20different%20conditions.
+- https://blog.greenroots.info/5-ways-to-merge-arrays-in-javascript-and-their-differences
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+- https://www.javascripttutorial.net/javascript-array-length/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
 
 ## License
 
