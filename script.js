@@ -63,7 +63,7 @@ function generatePassword () {
    var password = [];
 
    for (var i = 0; i < passwordLength; i++) {
-    var randomItem = [Math.floor(Math.random()*combinedArray.length)];
+    var randomItem = Math.floor(Math.random()*combinedArray.length);
     password.push(combinedArray[randomItem]);
 
    }
