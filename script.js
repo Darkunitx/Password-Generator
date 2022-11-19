@@ -68,6 +68,6 @@ function generatePassword () {
 
    }
 
-   return password;
+   return password.join("");
 
 }
